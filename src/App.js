@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom'
+import Layout from './components/Layout';
+import Home from './components/Home'
+import Career from './components/Career'
+import Education from './components/Education'
+import Portfolio from './components/Portfolio'
+import './App.scss';
+import LetsConnect from './components/LetsConnect';
+import SitePath from './enums/path.ts';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path={SitePath.CAREER} element={<Career />}/>
+          <Route path={SitePath.EDUCATION} element={<Education />}/>
+          <Route path={SitePath.PORTFOLIO} element={<Portfolio />}/>
+          <Route path={SitePath.LETS_CONNECT} element={<LetsConnect />}/>
+          <Route/>
+        </Route>
+      </Routes>
+    </>
   );
 }
 

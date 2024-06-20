@@ -1,0 +1,21 @@
+.pf-detail-page {
+    position: relative;
+}
+
+.pf-detail-back-btn {
+    color: #fff;
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
+.pf-detail-body {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #fff;
+    padding: 10px;
+
+    div {
+        margin: 2em 0;
+    }
+}

@@ -1,0 +1,13 @@
+.nav-link-btn {
+    border: 1px solid #fff;
+    padding: 1em;
+    background-color: #3f06f9;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #fff;
+        color: #3f06f9;
+        text-decoration: none;
+    }
+}
