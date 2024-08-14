@@ -1,3 +1,5 @@
+
+
 .nav-bar{
     display: flex;
     flex-direction: row;
@@ -9,10 +11,10 @@
     flex-grow: 1;
 }
 
-$color-primary: #f857a8;
-$color-secondary: #ff5858;
-$color-neutral-lt: #fff;
-$color-neutral-med: #ddd;
+$color-primary: #c1f3fa;
+$color-secondary: #3f06f9;
+$color-neutral-lt: #1da63a;
+$color-neutral-med: #d14d4d;
 $color-neutral-dk: #444;
 $a-tags: "a, a:active, a:hover, a:visited";
 $a-tags-no-hov: "a:link, a:visited, a:active";
@@ -101,6 +103,9 @@ input:focus {
   }
 }
 
+.left, .right{
+  padding: 0px 20px;
+}
 
 .nav-link,
 .logo {
@@ -140,25 +145,24 @@ h1.logo #{$a-tags} {
   border-top: 0.5px solid $color-neutral-med;
 }
 
-#{$a-tags-no-hov} {
-  text-decoration: none;
-  color: $color-primary;
-}
-
 a:hover {
   text-decoration: underline;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 .btn-nav {
   color: $color-primary;
   padding-left: 2em;
   padding-right: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .right {
+    display: flex;
+    height: 100%;
+   justify-content: end;
+    //display: contents;
+  }
 }
 
 @media (min-width: 800px) {
@@ -180,7 +184,6 @@ a:hover {
     flex-direction: row;
     justify-content: flex-end;
     position: relative;
-    left: 1.5em;
     height: auto;
   }
 
@@ -204,10 +207,6 @@ a:hover {
     @include skew;
     color: #777;
     text-decoration: none;
-
-    &:last-child {
-      padding-right: 3em;
-    }
   }
 
   a:hover.nav-link:not(.active) {

@@ -1,56 +1,75 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
-
-const useStyles = makeStyles({
-  root: {
-    minWidth: 100,
-    height: 320
-  },
-  bullet: {
-    display: "inline-block",
-    margin: "0 2px",
-    transform: "scale(0.8)"
-  },
-  title: {
-    fontSize: 14
-  },
-  pos: {
-    marginBottom: 12
-  }
-});
+import { styled } from '@mui/system';
+import { resizeImage } from '../../Utils/ResizeImage'; 
+import './index.scss'
 
 const PtCard = ({props}) => {
-  const classes = useStyles();
   const data = props.data;
 
-  console.log('Click1');
-  console.log(props);
+  const [resizedImage, setResizedImage] = useState(null);
+
+  useEffect(() => {
+    const sampleImage = require(`../../../images/${data.image}`);
+    
+    const img = new Image();
+    img.onload = () => {
+      const width = 500;
+      const height = 400;
+
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+
+      ctx.drawImage(img, 0, 0, width, height);
+
+      const resizedImageUrl = canvas.toDataURL('image/jpeg');
+      setResizedImage(resizedImageUrl);
+    };
+    img.src = sampleImage;
+  }, []);
 
   return (
-    <Card onClick={() => props.cardClick(props.name)} className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="150"
-          image={require(`../../../images/${data.image}`)}
-          alt="green iguana"
-        />
-        <CardContent>
+    <Card /*onClick={() => props.cardClick(props.name)}*/ className="root zoom-card">
+       
+        {resizedImage && (
+          <CardMedia
+            component="img"
+            className="zoom-card-media"
+            image={resizedImage}
+            alt={data.title}
+          />
+        )}
+        <CardContent className="hover-content">
+          <div className="hover-layout">
+            <div className="text-elements">
+              {data.title}: {data.shortText}
+            </div>
+            <a href={data.link} target="_blank" rel="noopener noreferrer" className="project-link text-elements">
+              {data.goTo}
+            </a>
+          </div>
+
+
+        </CardContent>
+
+    </Card>
+  );
+}
+
+/*
           <Typography gutterBottom variant="h5" component="div">
            {data.title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {data.shortText}
           </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
-  );
-}
+*/
 
 export default PtCard;

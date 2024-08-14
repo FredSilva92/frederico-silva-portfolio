@@ -108,11 +108,15 @@ body {
 }
 
 .nav {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   height: 4em;
   line-height: 4em;
   flex-grow: 1;
-  padding: 0 0 0 0.5em;
+  //padding: 0 0 0 0.5em;
   background: $color-secondary;
 }
 
@@ -150,6 +154,7 @@ h1.logo #{$a-tags} {
 }
 
 .nav-link {
+  display: inline-flex;
   text-transform: uppercase;
   text-align: center;
   border-top: 0.5px solid $color-neutral-med;
@@ -166,7 +171,7 @@ a:hover {
 
 .right {
   display: flex;
-  flex-direction: column;
+  //flex-direction: column;
   height: 100%;
 }
 
@@ -276,12 +281,27 @@ a:hover {
 }
 
 .page {
+  margin-top: 64px;
   width: 100%;
   min-height: 100%;
   position: absolute;
   background-image: url('./images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .page {
+    width: 190vw; /* Viewport width */
+    font-size: 18px;
+    min-height: 200%;
+  }
+
+  .nav {
+    width: 180vw;
+    font-size: 1em;
+  }
 }
 
 .top-tags {

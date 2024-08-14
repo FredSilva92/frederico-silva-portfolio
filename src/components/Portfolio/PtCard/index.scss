@@ -1,0 +1,133 @@
+.zoom-card-media-image {
+    //width: 100%;
+    //height: 60%; 
+    object-fit: cover;
+    position: relative;
+}
+
+.root {
+    min-width: 100px;
+
+    &.zoom-card {
+        position: relative;
+      }
+  }
+  
+  
+  .bullet {
+    display: inline-block;
+    margin: 0 2px;
+    transform: scale(0.8);
+  }
+  
+  .title {
+    font-size: 14px;
+  }
+  
+  .pos {
+    margin-bottom: 12px;
+  }
+  
+  .zoom-card {
+    &:hover .zoom-card-media {
+      transform: scale(1.1);
+    }
+  }
+  
+  .zoom-card-media {
+    transition: transform 0.5s ease;
+  }
+
+.hover-content {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    background-color: rgba(63, 6, 249, 0.9); // Semi-transparent background
+    color: white;
+    opacity: 0;
+    padding: 0px !important;
+    transition: opacity 1.3s ease, visibility 1s;
+    pointer-events: none; // Prevents hover-content from blocking mouse events
+  
+}
+
+.zoom-card:hover .hover-content {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto; // Allows hover-content to receive mouse events when visible
+}
+
+
+
+.text-elements {
+  padding: 15px 0px;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a {
+  color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .hover-layout {
+    padding: 30px 0px;
+  }
+}
+
+@media only screen and (max-width: 1096px) {
+  
+  .hover-layout {
+    padding: 0px 10px;
+  }
+}
+
+@media  (min-width: 1096px) {
+  
+  .hover-layout {
+    font-size: 18px;
+    padding: 50px 50px;
+    //display: contents;
+    height: 100%;
+    display: block;
+    align-content: center;
+    line-height: 30px;
+  }
+  .text-elements {
+    padding: 15px 0px;
+  }
+}
+
+@media  (min-width: 1275px) {
+  .hover-layout {
+    padding: 20px 20px;
+    font-size: 20px;
+    display: block;
+    justify-content: center;
+
+    .text-elements {
+      padding: 20px 0px;
+    }
+  }
+}
+
+@media  (min-width: 1700px) {
+  .hover-layout {
+    font-size: 24px;
+
+    .text-elements {
+      padding: 80px 0px;
+    }
+  }
+}

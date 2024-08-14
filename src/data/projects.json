@@ -2,13 +2,92 @@
     "MirrorTrips": {
         "title": "Mirror Trips",
         "image": "MirrorTrips.png",
-        "shortText": "Lorem ipsum dolor sit amet",
-        "longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "shortText": "A mobile where you can check the best places to visit in the world, taking into your personal preferences.",
+        "goTo": "Go to project",
+        "link": "https://github.com/FredSilva92/MirrorTrips"
     },
     "JungleParty": {
         "title": "Jungle Party",
         "image": "JungleParty.png",
-        "shortText": "Lorem ipsum dolor sit amet",
-        "longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "shortText": "A 3D multiplayer computer game in the party game genre",
+        "goTo": "Go to website",
+        "link": "https://nonas00.itch.io/jungle-party"
+    },
+    "VodafoneIITC": {
+        "title": "Vodafone Internet in the Car",
+        "image": "VodafoneIITC.jpg",
+        "shortText": "Service that provides Wi-Fi connectivity within a vehicle",
+        "goTo": "Go to website",
+        "link": "https://internetinthecar.vodafone.com/m2miitcfo/faces/home.jspx"
+    },
+    "VodafoneM2M": {
+        "title": "Vodafone M2M",
+        "image": "VodafoneM2M.jpg",
+        "shortText": "Service that manages connectivity between devices",
+        "goTo": "Go to website",
+        "link": "https://m2mportal.vodafone.com/m2mscp/"
+    },
+    "CosmicConfrontation": {
+        "title": "Cosmic Confrontation, The Island's Legacy",
+        "image": "CosmicConfrontation.png",
+        "shortText": "a 3D adventure game made with Unity",
+        "goTo": "Go to project",
+        "link": "https://github.com/FredSilva92/GamePA"
+    },
+    "ICrash": {
+        "title": "ICrash",
+        "image": "ICrash.png",
+        "shortText": "A 2D crash bandicoot based game made for IOS",
+        "goTo": "Go to project",
+        "link": "https://github.com/FredSilva92/Crash2DBandicoot"
+    },
+    "SuperBeachBallJS": {
+        "title": "Super Beach Ball",
+        "image": "SuperBeachBall.png",
+        "shortText": "A 2D platform game made with Javascript",
+        "goTo": "Go to project",
+        "link": "https://github.com/FredSilva92/SuperBeachBallJS"
+    }, 
+    "QGISTreeCanopyPlugin": {
+        "title": "QGIS Tree Canopy Plugin",
+        "image": "QgisPlugin.png",
+        "shortText": "A geographic information system that calculates tree canopies in a specific area, made with python",
+        "goTo": "Go to project",
+        "link": "https://github.com/FredSilva92/QGIS_Tree_Canopy_Plugin"
+    },
+    "Prog3DPoolBalls": {
+        "title": "3D Pool Balls",
+        "image": "OpenGL.png",
+        "shortText": "A 3D pool demonstration made with C++ and Opengl",
+        "goTo": "Go to project",
+        "link": ""
+    }, 
+    "TicTacToeCPP" : {
+        "title": "Tic Tac Toe",
+        "image": "TicTacToe.png",
+        "shortText": "A tic tac toe game made with C++",
+        "goTo": "Go to project",
+        "link": "https://github.com/FredSilva92/TicTacToeCPlusPlus"
+    },
+    "CGames": {
+        "title": "C Games",
+        "image": "CGames.jpg",
+        "shortText": "A collection of games like tic tac toe and four in a row made with C",
+        "goTo": "Go to project",
+        "link": "https://github.com/FredSilva92/PITrabalho1"
+    }, 
+    "Kamisado": {
+        "title": "Kamisado",
+        "image": "Kamisado.png",
+        "shortText": "A board game made with Java",
+        "goTo": "Go to project",
+        "link": "https://github.com/FredSilva92/Kamisado"
+    },
+    "DSAC": {
+        "title": "DSAC",
+        "image": "DataStructures.jpg",
+        "shortText": "Project with hash map and linked lists made with C",
+        "goTo": "Go to project",
+        "link": "https://github.com/FredSilva92/DataStructures_HashMap_LinkedLists"
     }
 }

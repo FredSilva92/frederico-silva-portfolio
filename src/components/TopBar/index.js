@@ -1,4 +1,4 @@
-import '../../index.scss'
+import './index.scss'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import SitePath from '../../enums/path.ts'
@@ -15,7 +15,7 @@ const TopBar = () => {
 
     return ( 
         <div className='nav'>
-            <nav class="nav left">
+            <nav class="left">
                 <NavLink 
                     activeclassname="active"
                     className="nav-link"
@@ -48,7 +48,7 @@ const TopBar = () => {
                     <span class="nav-link-span">Education</span>
                 </NavLink>   
             </nav>
-            <nav class="nav right">
+            <nav class="right">
                 <a
                     className="nav-icons"
                     href="https://www.linkedin.com/in/pedro-frederico-silva/"
@@ -85,11 +85,12 @@ const TopBar = () => {
                     className="anchor-icon fa-xl"
                     />
                 </a>
-            </nav>
-            <div className="btn">
+                <div className="btn">
 
-                <Button urlName={SitePath.LETS_CONNECT} onClickBtn={setShowNav} />
-            </div>
+                    <Button urlName={SitePath.LETS_CONNECT} onClickBtn={setShowNav} />
+                </div>
+            </nav>
+
         </div>        
     );
 }
