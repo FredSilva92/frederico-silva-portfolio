@@ -1,8 +1,10 @@
-import '../../index.scss'
+import Board from 'components/elements/Board'
+import courses from '../../data/education.json'
+import './index.scss'
 
 const Education = () => {
     return (
-        <div>çllkjhgsaasdsasadcefsac77542</div>
+        <Board data={courses}/>
     )
 }
 

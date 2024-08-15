@@ -1,12 +1,7 @@
 import React, {useState, useEffect} from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-import CardActionArea from "@material-ui/core/CardActionArea";
 import CardMedia from "@material-ui/core/CardMedia";
-import Typography from "@material-ui/core/Typography";
-import { styled } from '@mui/system';
-import { resizeImage } from '../../Utils/ResizeImage'; 
 import './index.scss'
 
 const PtCard = ({props}) => {
@@ -36,7 +31,7 @@ const PtCard = ({props}) => {
   }, []);
 
   return (
-    <Card /*onClick={() => props.cardClick(props.name)}*/ className="root zoom-card">
+    <Card className="root zoom-card">
        
         {resizedImage && (
           <CardMedia
@@ -62,14 +57,5 @@ const PtCard = ({props}) => {
     </Card>
   );
 }
-
-/*
-          <Typography gutterBottom variant="h5" component="div">
-           {data.title}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {data.shortText}
-          </Typography>
-*/
 
 export default PtCard;

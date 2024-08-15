@@ -11,10 +11,6 @@ const Portfolio = () => {
         setDetailPage(true);
     }
 
-    const onReturnToGrid = () => {
-        setDetailPage(false);
-    }
-
     let properties = {
         cardClick: onCardClick
     }
@@ -24,7 +20,7 @@ const Portfolio = () => {
     return (
         <div>
         {
-            detailPage ? (<PortfolioDetail backClick={onReturnToGrid} />) : (<PtGrid portfolioData={projects} propsGrid={properties}/>)
+           <PtGrid portfolioData={projects} propsGrid={properties}/>
         }
         </div>
     )

@@ -57,7 +57,7 @@
     },
     "Prog3DPoolBalls": {
         "title": "3D Pool Balls",
-        "image": "OpenGL.png",
+        "image": "Prog3DPoolBalls.png",
         "shortText": "A 3D pool demonstration made with C++ and Opengl",
         "goTo": "Go to project",
         "link": ""

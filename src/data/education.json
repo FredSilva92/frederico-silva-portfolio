@@ -1,0 +1,18 @@
+[
+    {
+        "header": {
+            "title": "Game development engineer",
+            "period": "2021-24"
+        },
+        "footer": "Institution: Instituto Politécnico do Cávado e do Ave (IPCA)",
+        "description":"Games Engineering and Development degree aims to train highly specialized technicians in the field of digital games development software engineering, with the aptitude to perform relevant tasks in the software industry, namely those involving additional and specific attributes of the multimedia and interactive systems sector. The course covers topics besides game development, like machine learning, web development, game design, graphics and diffrent programming concepts like data structures. Some of the technologies used are C#, C++, Unity, OpenGL, javascript, python or maya."
+    },
+    {
+        "header": {
+            "title": "Programming intensive bootcamp",
+            "period": "2021-24"
+        },
+        "footer": "Institution: Academia de código",
+        "description":"A 14-Week Intensive && Immersive Java && JavaScript FullStack Coding Bootcamp."
+    }
+]

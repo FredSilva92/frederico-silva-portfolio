@@ -50,8 +50,8 @@ const PtGrid = ({portfolioData, propsGrid}) => {
                 <Grid item  xs={7} sm={6} lg={4}>
                   <PtCard props={projProps} />
                 </Grid>
-              )
-            }
+                )
+              }
 
             )
           }
