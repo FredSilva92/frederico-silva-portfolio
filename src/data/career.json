@@ -1,0 +1,21 @@
+[
+    {
+        "header": {
+            "title": "Celfocus",
+            "period": "Period: Jan 2019-Current"
+        },
+        "image": "carreer/Celfocus.png",
+        "footer": "Celfocus",
+        "description": "Celfocus is a European high-tech system integrator, providing professional services focused on creating business value through Analytics and Cognitive solutions –addressing Telecommunications, Energy & Utilities, Financial Services and other markets' strategic opportunities. Here I worked with Vodafone portals like call center application from Vodafone Ireland or Internet in the car from Vodafone Global as full stack developer."
+    },    
+    {
+        "header": {
+            "title": "Geospatial Engineering activities",
+            "period": "Period: Nov 2017-Jul 2018"
+        },
+        "image": "carreer/Geospatial.jpg",
+        "footer": "Geospatial Engineering activities",
+        "description": "On this period I worked has surveyor, where I measured points with GPS and also as Geographic Information Systens (GIS) where I created networks based on nodes measured on field."
+    }
+
+]

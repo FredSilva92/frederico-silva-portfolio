@@ -15,7 +15,7 @@ const TopBar = () => {
 
     return ( 
         <div className='nav'>
-            <nav class="left">
+            <nav className="left">
                 <NavLink 
                     activeclassname="active"
                     className="nav-link"
@@ -48,7 +48,7 @@ const TopBar = () => {
                     <span class="nav-link-span">Education</span>
                 </NavLink>   
             </nav>
-            <nav class="right">
+            <nav className="right">
                 <a
                     className="nav-icons"
                     href="https://www.linkedin.com/in/pedro-frederico-silva/"
@@ -85,14 +85,16 @@ const TopBar = () => {
                     className="anchor-icon fa-xl"
                     />
                 </a>
-                <div className="btn">
 
-                    <Button urlName={SitePath.LETS_CONNECT} onClickBtn={setShowNav} />
-                </div>
             </nav>
 
         </div>        
     );
+
+    /*                <div className="btn">
+
+                    <Button urlName={SitePath.LETS_CONNECT} onClickBtn={setShowNav} />
+                </div> */
 }
 
 

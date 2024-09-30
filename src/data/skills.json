@@ -1,0 +1,92 @@
+{
+    "programming": [
+        {
+            "name": "C#",
+            "image": "skills/Csharp.png"
+        },
+        {
+            "name": "Java",
+            "image": "skills/java.png"
+        },
+        {
+            "name": "C++",
+            "image": "skills/cpp.png"
+        },
+        {
+            "name": "C",
+            "image": "skills/c.png"
+        },
+        {
+            "name": "Python",
+            "image": "skills/python.png"
+        },
+        {
+            "name": "Html",
+            "image": "skills/html.png"
+        },
+        {
+            "name": "Css",
+            "image": "skills/css.png"
+        },
+        {
+            "name": "Javascript",
+            "image": "skills/javascript.png"
+        },
+        {
+            "name": "Typescript",
+            "image": "skills/typescript.png"
+        },
+        {
+            "name": "Kotlin",
+            "image": "skills/kotlin.png"
+        },
+        {
+            "name": "Hlsl"
+        },
+        {
+            "name": "Sql",
+            "image": "skills/sql.png"
+        },
+        {
+            "name": "Swift",
+            "image": "skills/swift.png"
+        }
+    ],
+    "other": [
+        {
+            "name": "Unity",
+            "image": "skills/unity.png"
+        },        
+        {
+            "name": "Open GL"
+        },
+        {
+            "name": "Spring",
+            "image": "skills/spring.png"
+        },
+        {
+            "name": "Qgis",
+            "image": "skills/qgis.png"
+        },
+        {
+            "name": "Arc gis",
+            "image": "skills/arcgis.png"
+        },
+        {
+            "name": "React",
+            "image": "skills/react.png"
+        },
+        {
+            "name": "Angular",
+            "image": "skills/angular.png"
+        },
+        {
+            "name": "Docker",
+            "image": "skills/docker.png"
+        },
+        {
+            "name": "Machine learning",
+            "image": "skills/machine-learning.png"
+        }
+    ]
+}

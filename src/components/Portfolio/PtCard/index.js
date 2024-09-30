@@ -3,6 +3,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import './index.scss'
+import { readjustImage } from '../../Utils/ResizeImage';
 
 const PtCard = ({props}) => {
   const data = props.data;
@@ -10,29 +11,11 @@ const PtCard = ({props}) => {
   const [resizedImage, setResizedImage] = useState(null);
 
   useEffect(() => {
-    const sampleImage = require(`../../../images/${data.image}`);
-    
-    const img = new Image();
-    img.onload = () => {
-      const width = 500;
-      const height = 400;
-
-      const canvas = document.createElement('canvas');
-      canvas.width = width;
-      canvas.height = height;
-      const ctx = canvas.getContext('2d');
-
-      ctx.drawImage(img, 0, 0, width, height);
-
-      const resizedImageUrl = canvas.toDataURL('image/jpeg');
-      setResizedImage(resizedImageUrl);
-    };
-    img.src = sampleImage;
+    readjustImage(require(`../../../images/${data.image}`), 500, 400, setResizedImage);
   }, []);
 
   return (
     <Card className="root zoom-card">
-       
         {resizedImage && (
           <CardMedia
             component="img"
@@ -50,8 +33,6 @@ const PtCard = ({props}) => {
               {data.goTo}
             </a>
           </div>
-
-
         </CardContent>
 
     </Card>

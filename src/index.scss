@@ -210,7 +210,7 @@ a:hover {
   .nav #{$a-tags-no-hov} {
     &.active {
       @include main-gradient;
-      color: $color-secondary;
+      color: $color-primary;
     }
   }
 
@@ -299,7 +299,7 @@ a:hover {
   }
 
   .nav {
-    width: 180vw;
+    //width: 180vw;
     font-size: 1em;
   }
 }

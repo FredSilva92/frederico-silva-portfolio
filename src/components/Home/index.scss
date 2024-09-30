@@ -1,0 +1,65 @@
+.skills-board {
+    background-color: rgba($color: #DDDDDD, $alpha: 0.9);
+    width: 80%;
+    display: block;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #000000;
+    border-radius: 20px;
+
+    & > *:not(:last-child) {
+        border-bottom: 1px solid black;
+    }
+}
+
+.skills-title {
+    padding: 10px 5px;
+    border-bottom: 1px solid #000000;
+}
+
+.skills-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.skills-column {
+    flex: 1; /* Ensure all columns have equal width */
+    text-align: center; /* Center the text within each column */
+
+    & > h3 {
+        flex: 1;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0px;
+        border-bottom: 1px solid black;
+        padding-bottom: 15px;
+    }
+}
+
+.skill-image {
+    width: 24px;
+    height: 24px;
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+}
+ .skill-row {
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+    padding: 5px 0px;
+
+    &:first-of-type{
+        padding-top: 10px; /* Apply top padding only to the first child */
+    }
+ }
+
+.skill-text {
+    margin: 0px 5px;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}

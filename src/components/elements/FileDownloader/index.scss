@@ -1,0 +1,22 @@
+.file-downloader {
+    background-color: rgba($color: #DDDDDD, $alpha: 0.9);
+    width: 10%;
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: center; /* Center the items horizontally */
+
+    font-size: 14px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.image-download {
+    width: 24px;
+    height: 24px;
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+}

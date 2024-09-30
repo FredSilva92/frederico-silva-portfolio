@@ -1,91 +1,91 @@
 {
     "MirrorTrips": {
         "title": "Mirror Trips",
-        "image": "MirrorTrips.png",
+        "image": "projects/MirrorTrips.png",
         "shortText": "A mobile where you can check the best places to visit in the world, taking into your personal preferences.",
         "goTo": "Go to project",
         "link": "https://github.com/FredSilva92/MirrorTrips"
     },
     "JungleParty": {
         "title": "Jungle Party",
-        "image": "JungleParty.png",
+        "image": "projects/JungleParty.png",
         "shortText": "A 3D multiplayer computer game in the party game genre",
         "goTo": "Go to website",
         "link": "https://nonas00.itch.io/jungle-party"
     },
     "VodafoneIITC": {
         "title": "Vodafone Internet in the Car",
-        "image": "VodafoneIITC.jpg",
+        "image": "projects/VodafoneIITC.jpg",
         "shortText": "Service that provides Wi-Fi connectivity within a vehicle",
         "goTo": "Go to website",
         "link": "https://internetinthecar.vodafone.com/m2miitcfo/faces/home.jspx"
     },
     "VodafoneM2M": {
         "title": "Vodafone M2M",
-        "image": "VodafoneM2M.jpg",
+        "image": "projects/VodafoneM2M.jpg",
         "shortText": "Service that manages connectivity between devices",
         "goTo": "Go to website",
         "link": "https://m2mportal.vodafone.com/m2mscp/"
     },
     "CosmicConfrontation": {
         "title": "Cosmic Confrontation, The Island's Legacy",
-        "image": "CosmicConfrontation.png",
+        "image": "projects/CosmicConfrontation.png",
         "shortText": "a 3D adventure game made with Unity",
         "goTo": "Go to project",
         "link": "https://github.com/FredSilva92/GamePA"
     },
     "ICrash": {
         "title": "ICrash",
-        "image": "ICrash.png",
+        "image": "projects/ICrash.png",
         "shortText": "A 2D crash bandicoot based game made for IOS",
         "goTo": "Go to project",
         "link": "https://github.com/FredSilva92/Crash2DBandicoot"
     },
     "SuperBeachBallJS": {
         "title": "Super Beach Ball",
-        "image": "SuperBeachBall.png",
+        "image": "projects/SuperBeachBall.png",
         "shortText": "A 2D platform game made with Javascript",
         "goTo": "Go to project",
         "link": "https://github.com/FredSilva92/SuperBeachBallJS"
     }, 
     "QGISTreeCanopyPlugin": {
         "title": "QGIS Tree Canopy Plugin",
-        "image": "QgisPlugin.png",
+        "image": "projects/QgisPlugin.png",
         "shortText": "A geographic information system that calculates tree canopies in a specific area, made with python",
         "goTo": "Go to project",
         "link": "https://github.com/FredSilva92/QGIS_Tree_Canopy_Plugin"
     },
     "Prog3DPoolBalls": {
         "title": "3D Pool Balls",
-        "image": "Prog3DPoolBalls.png",
+        "image": "projects/Prog3DPoolBalls.png",
         "shortText": "A 3D pool demonstration made with C++ and Opengl",
         "goTo": "Go to project",
         "link": ""
     }, 
     "TicTacToeCPP" : {
         "title": "Tic Tac Toe",
-        "image": "TicTacToe.png",
+        "image": "projects/TicTacToe.png",
         "shortText": "A tic tac toe game made with C++",
         "goTo": "Go to project",
         "link": "https://github.com/FredSilva92/TicTacToeCPlusPlus"
     },
     "CGames": {
         "title": "C Games",
-        "image": "CGames.jpg",
+        "image": "projects/CGames.jpg",
         "shortText": "A collection of games like tic tac toe and four in a row made with C",
         "goTo": "Go to project",
         "link": "https://github.com/FredSilva92/PITrabalho1"
     }, 
     "Kamisado": {
         "title": "Kamisado",
-        "image": "Kamisado.png",
+        "image": "projects/Kamisado.png",
         "shortText": "A board game made with Java",
         "goTo": "Go to project",
         "link": "https://github.com/FredSilva92/Kamisado"
     },
     "DSAC": {
         "title": "DSAC",
-        "image": "DataStructures.jpg",
+        "image": "projects/DataStructures.jpg",
         "shortText": "Project with hash map and linked lists made with C",
         "goTo": "Go to project",
         "link": "https://github.com/FredSilva92/DataStructures_HashMap_LinkedLists"

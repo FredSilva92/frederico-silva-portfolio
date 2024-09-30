@@ -1,18 +1,38 @@
 [
     {
         "header": {
-            "title": "Game development engineer",
-            "period": "2021-24"
+            "title": "Bachelor in Game development engineer",
+            "period": "Period: 2021-2024"
         },
-        "footer": "Institution: Instituto Politécnico do Cávado e do Ave (IPCA)",
+        "image": "education/Ipca.jpg",
+        "footer": "Polytechnic of Cávado and Ave (IPCA)",
         "description":"Games Engineering and Development degree aims to train highly specialized technicians in the field of digital games development software engineering, with the aptitude to perform relevant tasks in the software industry, namely those involving additional and specific attributes of the multimedia and interactive systems sector. The course covers topics besides game development, like machine learning, web development, game design, graphics and diffrent programming concepts like data structures. Some of the technologies used are C#, C++, Unity, OpenGL, javascript, python or maya."
     },
     {
         "header": {
             "title": "Programming intensive bootcamp",
-            "period": "2021-24"
+            "period": "Period: Sep 2018-Dec 2018"
         },
-        "footer": "Institution: Academia de código",
+        "image": "education/AcademiaCodigo.png",
+        "footer": "Academia de código",
         "description":"A 14-Week Intensive && Immersive Java && JavaScript FullStack Coding Bootcamp."
+    },
+    {
+        "header": {
+            "title": "Master in Geospatial Engineering",
+            "period": "Period: 2015 - 2017"
+        },
+        "image": "education/fcup.png",
+        "footer": "Faculty of Sciences of the University of Porto (FCUP)",
+        "description":"This degree imparts academic training and practice required for understanding issues of the gathering and treatment a wide range of geographic data, including: the production of topographic maps, the implementation and supervision of geodetic positioning investigation, the treatment of images from satellites and aerial photography; and the implementation and management of geographic information systems. The training seeks to provide extensive knowledge of the various disciplines of Geographic Engineering and a critical sense enabling its future engineers the ability to autonomously decide and conduct work in this area, rather than being mere users of the technology."
+    },
+    {
+        "header": {
+            "title": "Bachelor in Geospatial Engineering",
+            "period": "Period: 2010 - 2015"
+        },
+        "image": "education/fcup.png",
+        "footer": "Faculty of Sciences of the University of Porto (FCUP)",
+        "description":"The 1st cycle in Geospatial Engineering aims to combine solid training in the fundamental sciences and computer science with specific technological areas such as remote sensing, satellite positioning and geographic information systems (GIS). In the curricular units of Geospatial Engineering area, students will acquire knowledge related to the acquisition, processing, treatment and analysis of geospatial information using the most recent georeferenced information acquisition technologies using spatial, aerial and terrestrial and marine platforms. The student of Geospatial Engineering will carry out, in the last year of the course, an internship in a business environment or in governmental departments, that will give him the direct contact with the professional reality."
     }
 ]

@@ -1,3 +1,11 @@
-{
-    
-}
+[
+    {        
+        "header": {
+            "title": "Pedro Frederico Silva's portfolio",
+            "period": "Email: pedrofredsilva@gmail.com"
+        },
+        "image": "AboutMe/PedroSilva.jpg",
+        "footer": "Polytechnic of Cávado and Ave (IPCA)",
+         "description": "Hello, my name is Pedro Frederico Silva(you can call me Fred) and this my portfolio. Here you can check the projects where I've worked on, but also my career path and courses where I got a diploma. I’ve always been passionate by technology, maps and gaming. I’m a person that always try to evolve, that’s why I took some courses and degrees and also change from topography to software development. Now, i don’t want stop here my growing process. To show the projects where I worked on, I created this portfolio with React. I hope you enjoy it!"
+    }
+]
