@@ -56,3 +56,25 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    .header-title {
+        font-size: 14px;
+        margin-right: 40px;
+    }
+
+    .period-title {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .header-title {
+        font-size: 16px;
+        margin-right: 40px;
+    }
+
+    .period-title {
+        font-size: 15px;
+    }
+}

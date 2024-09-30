@@ -20,3 +20,16 @@
     background-size: cover; /* Adjust as needed */
     background-position: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .file-downloader {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .file-downloader {
+        width: 30%;
+    }
+}

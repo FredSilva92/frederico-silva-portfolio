@@ -167,7 +167,6 @@ a:hover {
   }
 }
 
-@media (min-width: 800px) {
   #nav-wrapper {
     overflow: hidden;
   }
@@ -217,10 +216,7 @@ a:hover {
   a:hover.nav-link:not(.active) {
     @include main-gradient;
     color: #fff;
-    //background: $color-neutral-med;
-    //background: linear-gradient(45deg, #fff, #ddd);
   }
-}
 
 @keyframes logo-hover {
   20% {

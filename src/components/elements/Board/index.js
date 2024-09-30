@@ -22,29 +22,6 @@ const Row = ({data}) => {
     const firstColumnRef = useRef(null);
     const secondColumnRef = useRef(null);
 
-    useLayoutEffect(() => {
-        /*const updateBorders = () => {
-            if (firstColumnRef.current && secondColumnRef.current) {
-                const firstColumnHeight = firstColumnRef.current.offsetHeight;
-                const secondColumnHeight = secondColumnRef.current.offsetHeight;
-
-                if (firstColumnHeight > secondColumnHeight) {
-                    firstColumnRef.current.style.borderRight = '1px solid black';
-                    secondColumnRef.current.style.borderLeft = 'none';
-                } else {
-                    secondColumnRef.current.style.borderLeft = '1px solid black';
-                    firstColumnRef.current.style.borderRight = 'none';
-                }
-            }
-        };
-
-        updateBorders();
-
-        window.addEventListener('resize', updateBorders);
-        return () => window.removeEventListener('resize', updateBorders);*/
-        
-    }, [data]);
-
     return(
         <div className='row'>
             <div className='first-column' ref={firstColumnRef}>
@@ -61,7 +38,7 @@ const Row = ({data}) => {
                 {data.header && 
                     <div className="header">
                         <div className="header-title">{data.header.title}</div>
-                        <div>{data.header.period}</div>
+                        <div className="period-title">{data.header.period}</div>
                     </div>
                 }
                 <div className="description">{data.description}</div>
