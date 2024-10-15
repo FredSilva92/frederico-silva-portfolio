@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frederico-silva-portfolio/static/css/main.b39cbdb1.css",
-    "main.js": "/frederico-silva-portfolio/static/js/main.189dbbe1.js",
+    "main.js": "/frederico-silva-portfolio/static/js/main.342dcd8a.js",
     "static/js/787.4efd4f73.chunk.js": "/frederico-silva-portfolio/static/js/787.4efd4f73.chunk.js",
     "static/media/SuperBeachBall.png": "/frederico-silva-portfolio/static/media/SuperBeachBall.ebfc30aa240b6f278dda.png",
     "static/media/QgisPlugin.png": "/frederico-silva-portfolio/static/media/QgisPlugin.84c32722380bbb3a4dd8.png",
@@ -24,11 +24,11 @@
     "static/media/MirrorTrips.png": "/frederico-silva-portfolio/static/media/MirrorTrips.4325a4403d44203cd2e1.png",
     "index.html": "/frederico-silva-portfolio/index.html",
     "main.b39cbdb1.css.map": "/frederico-silva-portfolio/static/css/main.b39cbdb1.css.map",
-    "main.189dbbe1.js.map": "/frederico-silva-portfolio/static/js/main.189dbbe1.js.map",
+    "main.342dcd8a.js.map": "/frederico-silva-portfolio/static/js/main.342dcd8a.js.map",
     "787.4efd4f73.chunk.js.map": "/frederico-silva-portfolio/static/js/787.4efd4f73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b39cbdb1.css",
-    "static/js/main.189dbbe1.js"
+    "static/js/main.342dcd8a.js"
   ]
 }
