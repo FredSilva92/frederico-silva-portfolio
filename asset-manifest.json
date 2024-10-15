@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frederico-silva-portfolio/static/css/main.5ac4bf12.css",
+    "main.css": "/frederico-silva-portfolio/static/css/main.660aa0fe.css",
     "main.js": "/frederico-silva-portfolio/static/js/main.342dcd8a.js",
     "static/js/787.4efd4f73.chunk.js": "/frederico-silva-portfolio/static/js/787.4efd4f73.chunk.js",
     "static/media/SuperBeachBall.png": "/frederico-silva-portfolio/static/media/SuperBeachBall.ebfc30aa240b6f278dda.png",
@@ -23,12 +23,12 @@
     "static/media/Prog3DPoolBalls.png": "/frederico-silva-portfolio/static/media/Prog3DPoolBalls.15cd9fa05a98442f9ea2.png",
     "static/media/MirrorTrips.png": "/frederico-silva-portfolio/static/media/MirrorTrips.4325a4403d44203cd2e1.png",
     "index.html": "/frederico-silva-portfolio/index.html",
-    "main.5ac4bf12.css.map": "/frederico-silva-portfolio/static/css/main.5ac4bf12.css.map",
+    "main.660aa0fe.css.map": "/frederico-silva-portfolio/static/css/main.660aa0fe.css.map",
     "main.342dcd8a.js.map": "/frederico-silva-portfolio/static/js/main.342dcd8a.js.map",
     "787.4efd4f73.chunk.js.map": "/frederico-silva-portfolio/static/js/787.4efd4f73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ac4bf12.css",
+    "static/css/main.660aa0fe.css",
     "static/js/main.342dcd8a.js"
   ]
 }
