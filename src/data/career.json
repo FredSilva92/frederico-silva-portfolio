@@ -2,16 +2,16 @@
     {
         "header": {
             "title": "Celfocus",
-            "period": "Period: Jan 2019-Current"
+            "period": "Period: Jan 2019 - Current"
         },
         "image": "carreer/Celfocus.png",
         "footer": "Celfocus",
-        "description": "Celfocus is a European high-tech system integrator, providing professional services focused on creating business value through Analytics and Cognitive solutions –addressing Telecommunications, Energy & Utilities, Financial Services and other markets' strategic opportunities. Here I worked with Vodafone portals like call center application from Vodafone Ireland or Internet in the car from Vodafone Global as full stack developer."
+        "description": "Vodafone Global IoT – Internet in the car<br>This is the longest project where I’ve worked on. It consists of B2C and B2B portals, where initially consists of monoliths with frontend and backend on Spring framework, where the team where I was integrated, worked with features development and defects. On the last year, it was started a migration of B2B portal to a microservices architecture, using Spring boot and Java for backend and React and TypeScript for frontend. Also, it was added to the deploys a Jenkins pipeline where we run the pipeline when go to do some merge request. Also, we use docker to run the environments locally, having different container for B2C, B2B and for each microservice. To communicate with internal and external services, these projects use SOAP and REST APIs in order to consume data and also to send data.On this project, I’ve worked with JSP, React, TypeScript and CSS for frontend. On backend it is use Java 7 and 8, Spring, Spring boot and Maven with database being Oracle SQL. Also, I use git as version control tool and the repositories are on GitLab. The methodology used on this project was agile, where we have meetings like retrospective, dailies, demos and planning.<br><br>Vodafone Global IoT – ThingWorx<br>On ThingWorx project I’ve worked on widgets development for this platform. The native widgets of the platform didn’t suit the features development needs, so it was needed to develop custom widgets to fit the features development. I got recruited to this project to develop the custom widgets, developing widgets like calendars or file upload. The technologies used here was TypeScript, JavaScript, CSS, SASS and HTML. I worked also with Webpack to compile the widgets. The version control system used was git. The methodology used on this project was agile, where we have meetings like retrospective, dailies, demos and planning.<br><br>Vodafone Ireland – UFE (Unified frontend)<br>On this project I worked as a full stack developer on UFE application, which consists of an application for call centers and stores of Vodafone Ireland. The technologies that I’ve worked with was JavaScript, CSS, SASS and ExtJS framework frontend. On backend I’ve worked with Java 8, Maven, and Spring framework. Also, I did some work with database using Oracle SQL. The version control system used was git, with bit bucket repository. My work consisted of solve defects that client detected or their tests and add some functionalities also asked by the client. The methodology used on this project was agile, where we have meetings like retrospective, dailies, demos and planning."
     },    
     {
         "header": {
             "title": "Geospatial Engineering activities",
-            "period": "Period: Nov 2017-Jul 2018"
+            "period": "Period: Nov 2017 - Jul 2018"
         },
         "image": "carreer/Geospatial.jpg",
         "footer": "Geospatial Engineering activities",

@@ -1,5 +1,6 @@
 {
   "name": "frederico-silva-portfolio",
+  "homepage": "https://FredSilva92.github.io/frederico-silva-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,9 +12,9 @@
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.14.3",
     "@mui/material": "^5.14.5",
+    "@mui/styles": "^6.1.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -30,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -51,7 +54,9 @@
     ]
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^6.2.1",
-    "typescript": "^5.1.6"
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "^4.9.5"
   }
 }

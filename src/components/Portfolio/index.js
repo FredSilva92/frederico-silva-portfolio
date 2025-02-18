@@ -15,8 +15,6 @@ const Portfolio = () => {
         cardClick: onCardClick
     }
 
-    console.log(properties);
-
     return (
         <div>
         {

@@ -1,32 +1,11 @@
 import '../../../index.scss'
 import './index.scss'
-import { Grid } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import { Grid } from "@mui/material";
 import PtCard from '../PtCard';
 import  Projects  from '../../../enums/projects.ts';
 
-
-const useStyles = makeStyles({
-  root: {
-    minWidth: 200
-  },
-  bullet: {
-    display: "inline-block",
-    margin: "0 2px",
-    transform: "scale(0.8)"
-  },
-  title: {
-    fontSize: 14
-  },
-  pos: {
-    marginBottom: 12
-  }
-});
-
 const PtGrid = ({portfolioData, propsGrid}) => {
     const projectList = Object.values(Projects);
-    console.log('Grid');
-    console.log(projectList);
 
     return (
       <div className='container-pt-grid'>

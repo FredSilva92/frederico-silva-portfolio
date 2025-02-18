@@ -87,6 +87,10 @@
         {
             "name": "Machine learning",
             "image": "skills/machine-learning.png"
+        },
+        {
+            "name": "Maven",
+            "image": "skills/maven.png"
         }
     ]
 }

@@ -1,5 +1,5 @@
 import {useEffect, useLayoutEffect, useRef} from "react";
-import CardMedia from "@material-ui/core/CardMedia";
+import CardMedia from "@mui/material/CardMedia";
 import { readjustImage } from "components/Utils/ResizeImage";
 import './index.scss'
 
@@ -31,7 +31,6 @@ const Row = ({data}) => {
                     image={require(`../../../images/${data.image}`)}
                     alt={data.title}
                 />
-                <p>{data.footer}</p>
             </div>
             <div style={{ height: 'inherit', borderLeft: '1px solid black' }}></div>
             <div className='second-column' ref={secondColumnRef}>
@@ -41,7 +40,10 @@ const Row = ({data}) => {
                         <div className="period-title">{data.header.period}</div>
                     </div>
                 }
-                <div className="description">{data.description}</div>
+                 <div
+                    className="description"
+                    dangerouslySetInnerHTML={{ __html: data.description}}
+                ></div>
                 
             </div>
         </div>

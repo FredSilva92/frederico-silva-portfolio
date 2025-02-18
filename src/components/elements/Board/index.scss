@@ -17,20 +17,20 @@
 .row {
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
 }
 
 .first-column {
     padding: 10px;
-    width: 30%;
+    width: 20%;
     display: block;
     //border-right: 1px solid black;
 }
 
 .second-column {
-    width: 70%;
+    width: 80%;
     display: block;
-    padding: 30px 10px;
+    padding: 30px 20px;
     text-align: justify;
     box-sizing: border-box; /* Ensures padding and border are included in the element's width and height */
     height: 100%;
@@ -53,7 +53,7 @@
 }
 
 .header-title {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
 }
 
