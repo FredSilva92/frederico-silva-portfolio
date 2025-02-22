@@ -85,12 +85,28 @@
             "image": "skills/docker.png"
         },
         {
+            "name": "AWS",
+            "image": "skills/aws.png"
+        },
+        {
             "name": "Machine learning",
             "image": "skills/machine-learning.png"
         },
         {
             "name": "Maven",
             "image": "skills/maven.png"
+        },
+        {
+            "name": "REST API",
+            "image": "skills/rest-api.png"
+        },
+        {
+            "name": "SOAP API",
+            "image": "skills/soap-api.png"
+        },
+        {
+            "name": "NextJS",
+            "image": "skills/nextjs.png"
         }
     ]
 }

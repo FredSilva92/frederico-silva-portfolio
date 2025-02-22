@@ -9,9 +9,9 @@
     color: #000000;
     border-radius: 20px;
 
-    & > *:not(:last-child) {
+    /*& > *:not(:last-child) {
         border-bottom: 1px solid black;
-    }
+    }*/
 }
 
 .skills-title {
@@ -28,6 +28,7 @@
 .skills-column {
     flex: 1; /* Ensure all columns have equal width */
     text-align: center; /* Center the text within each column */
+    border-left: 1px solid black;
 
     & > h3 {
         flex: 1;

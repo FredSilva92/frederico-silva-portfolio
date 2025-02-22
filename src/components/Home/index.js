@@ -20,10 +20,10 @@ const SkillsBoard = () => {
         <div className='skills-board'>
             <div className='skills-titles'>
                 <div className='skills-column'>
-                    <h3 className='border-right'>Programming skills</h3>
+                    <h3>Programming skills</h3>
                     {dataSkills.programming.map((skill) => {
                         return(
-                            <SkillRow data={skill} customClasses={'border-right'}/>)
+                            <SkillRow data={skill}/>)
                         }
                     )}
                 </div>
