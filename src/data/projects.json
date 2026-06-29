@@ -60,7 +60,7 @@
         "image": "projects/Prog3DPoolBalls.png",
         "shortText": "A 3D pool demonstration made with C++ and Opengl",
         "goTo": "Go to project",
-        "link": ""
+        "link": "https://github.com/FredSilva92/Prog3DPoolBalls"
     }, 
     "TicTacToeCPP" : {
         "title": "Tic Tac Toe",
